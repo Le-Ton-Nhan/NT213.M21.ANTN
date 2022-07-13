@@ -1,0 +1,20 @@
+Thay tiến trình notepad bằng mspaint 
+Thêm mssv vào khi thực thi tiến trình
+-----------------------
+
+Sử dụng WDK để biên dịch code thành driver
+
+Kết quả sau khi biên dịch sẽ có file HideProcessHookMDL.sys
+
+------------------------
+
+Sử dụng OSR để đăng ký driver vừa biên dịch
+
+------------------------
+
+Chạy thử và kiểm tra kết quả
+Kiểm tra trong task manager ta thấy mspaint.exe đã bị ẩn nhưng chương trình vẫn đang hoạt động
+
+------------------------
+
+stop thì ta thấy mspaint.exe xuất hiện lại trong task manager
